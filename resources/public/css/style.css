@@ -1,0 +1,171 @@
+body {
+    background-color: Cornsilk;
+}
+
+#header-links {
+    background-color: BurlyWood;
+    padding: 10px;
+}
+
+h1 {
+    color: CornflowerBlue;
+}
+
+
+@import url("https://fonts.googleapis.com/css?family=Montserrat&display=swap");
+
+* {
+  font-family: "Montserrat", sans-serif !important;
+  background: #e8e8f3;
+}
+
+
+.container {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  background: #e8e8f3;
+}
+
+.text {
+  margin: 20px;
+  color: #969595;
+  font-size: 36px;
+}
+
+.palette {
+  width: auto;
+  height: auto;
+  max-width: 770px;
+  background: #e8e8f3;
+  position: relative;
+  padding: 10px;
+  border-radius: 10px;
+  margin: 40px;
+  box-shadow: 7px 7px 15px rgba(55, 84, 170, 0.15),
+    -7px -7px 20px rgba(255, 255, 255, 1),
+    inset 0px 0px 4px rgba(255, 255, 255, 0.2),
+    inset 7px 7px 15px rgba(55, 84, 170, 0),
+    inset -7px -7px 20px rgba(255, 255, 255, 0),
+    0px 0px 4px rgba(255, 255, 255, 0) !important;
+}
+
+.color-box {
+  width: 64px;
+  height: 64px;
+  background: red;
+  display: inline-block;
+  margin: 14px;
+  border-radius: 5%;
+  box-shadow: 7px 7px 15px rgba(55, 84, 170, 0.15),
+    -7px -7px 20px rgba(255, 255, 255, 1),
+    inset 0px 0px 4px rgba(255, 255, 255, 0.2),
+    inset 7px 7px 15px rgba(55, 84, 170, 0),
+    inset -7px -7px 20px rgba(255, 255, 255, 0),
+    0px 0px 4px rgba(255, 255, 255, 0) !important;
+  cursor: pointer;
+}
+
+.add{
+    background-color: #ffffff;
+}
+
+.color-box:nth-child(1) {
+    background-color: #55efc4;
+  }
+  
+  .color-box:nth-child(2) {
+    background-color: #81ecec;
+  }
+  
+  .color-box:nth-child(3) {
+    background-color: #74b9ff;
+  }
+  
+  .color-box:nth-child(4) {
+    background-color: #a29bfe;
+  }
+  
+  .color-box:nth-child(5) {
+    background-color: #dfe6e9;
+  }
+
+  .color-box:nth-child(6) {
+    background-color: #e84393;
+  }
+
+  .color-box:nth-child(7) {
+    background-color: #6c5ce7;
+  }
+  
+  .color-box:nth-child(8) {
+    background-color: #0984e3;
+  }
+  
+  .color-box:nth-child(9) {
+    background-color: #00cec9;
+  }
+  
+  .color-box:nth-child(10) {
+    background-color: #00b894;
+  }
+  
+  .color-box:nth-child(11) {
+    background-color: #ffeaa7;
+  }
+  
+  .color-box:nth-child(12) {
+    background-color: #fab1a0;
+  }
+  
+  .color-box:nth-child(13) {
+    background-color: #ff7675;
+  }
+  
+  .color-box:nth-child(14) {
+    background-color: #fd79a8;
+  }
+  
+  .color-box:nth-child(15) {
+    background-color: #d63031;
+  }
+  
+  .color-box:nth-child(16) {
+    background-color: #e17055;
+  }
+  
+  .color-box:nth-child(17) {
+    background-color: #fdcb6e;
+  }
+
+  
+
+  
+.shape {
+    padding: 0;
+    width: 80px;
+    height: 25px;
+    text-align: center;
+    border-radius: 50px;
+  }
+  
+  .ripple {
+    background-position: center;
+    transition: background 0.8s;
+  }
+  
+  .ripple:hover {
+    background: #e0e5ec radial-gradient(circle, transparent 1%, #e0e5ec 1%) center/15000%;
+  }
+  
+  .ripple:active {
+    background-color: #a3b1c6;
+    background-size: 100%;
+    transition: background 0s;
+  }
+
+#color {
+    width: 70px;
+}
