@@ -15,6 +15,10 @@
           (:green color)
           (:blue color)))
 
+(defn sum
+  [x y]
+  (+ x y))
+
 
 (defn gen-page-head
   [title]
