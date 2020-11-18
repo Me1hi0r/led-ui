@@ -16,8 +16,8 @@
           (:blue color)))
 
 (defn sum
-  [x y z v n]
-  (+ x y z v n))
+  [x y]
+  (+ x y))
 
 
 (defn gen-page-head
