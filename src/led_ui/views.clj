@@ -19,7 +19,7 @@
   [x lyz]
   (+ x lyz))
 
-(+ 1 2)
+(+ 1 3)
 (defn gen-page-head
   [title]
   [:head
